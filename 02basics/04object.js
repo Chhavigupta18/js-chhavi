@@ -51,11 +51,41 @@ const obj4=[
         name:"chhavi"
        }
 ]
-console.log(Object.keys(obj1));
-console.log(Object.values(obj2));
-console.log(Object.entries(obj1));
-console.log(tinder.hasOwnProperty('isloggedin'));
+// console.log(Object.keys(obj1));
+// console.log(Object.values(obj2));
+// console.log(Object.entries(obj1));
+// console.log(tinder.hasOwnProperty('isloggedin'));
 
+
+///////////////////////////////////DESTRUCTURE THE VALUES///////////////////////////////////////////////////////////////////
+
+const course={
+    name:"js",
+    price:"999",
+    courseinstructor:"hitesh"
+}
+console.log(course.courseinstructor);
+
+//////////or 
+const{courseinstructor:instructor}=course
+console.log(instructor);
+
+/////////////////////////////
+///////////////////////////////////////////////JSON//////////////////////////////////////////////////
+
+///          1} API IN THE OBJECT FORM
+
+// {"name":"chhavi",
+//    " coursename": "js",
+//    " price":"free"
+
+// }
+
+/////           2} API IN ARRAY FROM
+[
+    {},
+    {},          // MOST FAMOUS API (RANDOM USER ME)
+    {}]
 
 
 
