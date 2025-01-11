@@ -57,13 +57,14 @@
 
 ///**************************************************************************************************************** */
 
-const myObj={
-    "game1":'football',
-    "game2":'tennis'
+// const myObj={
+//     "game1":'football',
+//     "game2":'tennis'
 
-}
-
-for (const [key,value] of myObj) {
-    console.log(key,":-",value);
+// }
+// for (const [key, value] of Object.entries(myObj)) {
+//     console.log(`key: ${key}, Value : ${value}`);
     
-}
+// }
+
+//*************************************************************************************** */
