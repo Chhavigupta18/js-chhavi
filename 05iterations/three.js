@@ -68,3 +68,24 @@
 // }
 
 //*************************************************************************************** */
+
+///////////                   FOR IN LOOP                             ///////////////
+
+// const obj={
+//     chhavi: "red",
+//     ishu:"blue",
+//     kavita:"black",
+//     moto:"pink"
+// }
+// for (const key in obj) {
+//     console.log(`${key} favourite is for ${obj[key]}`);
+    
+//     }
+
+////++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++///////////////////
+
+const course=["js","rb","py","java",'cpp']
+for (const key in course) {
+    console.log(course[key]);
+    
+}
