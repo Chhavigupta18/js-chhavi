@@ -12,7 +12,34 @@
 </body>
 <script>
     function addLanguage(langname){
-        
+        const li = document.createElement('li');
+        li.innerHTML = `${langname}`
+        document.querySelector('.language')
+        .appendChild(li)
     }
+    addLanguage("python")
+    addLanguage("html")
+function optlang(langname){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(langname))
+    document.querySelector('.language').appendChild(li)
+}
+optlang("css")
+/// EDIT
+
+const second = document.querySelector("li:nth-child(2)");
+const newli=  document.createElement("li")
+newli.textContent = "Mojo"
+second.replaceWith(newli)
+
+// edit
+const first = document.querySelector("li:first-child")
+const newlist = document.createElement('li')
+newlist.textContent = "LOVE"
+ first.replaceWith(newlist)
+
+ // remove
+ const last =  document.querySelector("li:last-child");
+ last.remove()
 </script>
 </html>
